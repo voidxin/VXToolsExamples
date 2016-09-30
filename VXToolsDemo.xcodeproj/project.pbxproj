@@ -16,6 +16,7 @@
 		5B073BF21D9EA5990031733D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B073BF01D9EA5990031733D /* LaunchScreen.storyboard */; };
 		5B073BFD1D9EA5990031733D /* VXToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B073BFC1D9EA5990031733D /* VXToolsDemoTests.m */; };
 		5B073C081D9EA5990031733D /* VXToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B073C071D9EA5990031733D /* VXToolsDemoUITests.m */; };
+		5B073C191D9EA6060031733D /* VXTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B073C181D9EA6060031733D /* VXTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5B073C031D9EA5990031733D /* VXToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VXToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B073C071D9EA5990031733D /* VXToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VXToolsDemoUITests.m; sourceTree = "<group>"; };
 		5B073C091D9EA5990031733D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B073C171D9EA6060031733D /* VXTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXTools.h; sourceTree = "<group>"; };
+		5B073C181D9EA6060031733D /* VXTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 				5B073BF01D9EA5990031733D /* LaunchScreen.storyboard */,
 				5B073BF31D9EA5990031733D /* Info.plist */,
 				5B073BEB1D9EA5990031733D /* VXToolsDemo.xcdatamodeld */,
+				5B073C151D9EA6060031733D /* Resource */,
 				5B073BDF1D9EA5990031733D /* Supporting Files */,
 			);
 			path = VXToolsDemo;
@@ -141,6 +145,23 @@
 				5B073C091D9EA5990031733D /* Info.plist */,
 			);
 			path = VXToolsDemoUITests;
+			sourceTree = "<group>";
+		};
+		5B073C151D9EA6060031733D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5B073C161D9EA6060031733D /* VXTools */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5B073C161D9EA6060031733D /* VXTools */ = {
+			isa = PBXGroup;
+			children = (
+				5B073C171D9EA6060031733D /* VXTools.h */,
+				5B073C181D9EA6060031733D /* VXTools.m */,
+			);
+			path = VXTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +297,7 @@
 				5B073BED1D9EA5990031733D /* VXToolsDemo.xcdatamodeld in Sources */,
 				5B073BE71D9EA5990031733D /* ViewController.m in Sources */,
 				5B073BE41D9EA5990031733D /* AppDelegate.m in Sources */,
+				5B073C191D9EA6060031733D /* VXTools.m in Sources */,
 				5B073BE11D9EA5990031733D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "VXTools.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //获取屏幕的宽度
+    CGFloat width = [VXTools screenWidth];
+    NSLog(@"width : %f",width);
+    
+    //格式化时间
+    NSString *date = [VXTools DateTimeWithFormateNowString:@"yyyy-MM-dd"];
+    NSLog(@"date is :%@",date);
 }
 
 - (void)didReceiveMemoryWarning {
